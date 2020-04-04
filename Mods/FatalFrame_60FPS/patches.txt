@@ -17,3 +17,13 @@ _60fps = 0x00000000
 
 
 0x0233c5a8 = bla _60fps                 # Hook 
+
+[FatalF60fpsDisc]
+moduleMatches = 0xB54DBEB0
+
+0x0233DA18 = li r0, 0x3C
+
+[FatalF60fpsDiscJPN]
+moduleMatches = 0xB1CD64E4
+
+0x0283C534 = li r7, 0x3C
